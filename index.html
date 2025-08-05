@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Md Mehtab Khan - Data Analyst Portfolio</title>
+
+    <link
+      rel="shortcut icon"
+      href="assets/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <meta
+      name="description"
+      content="Data Analyst Portfolio of Md Mehtab Khan - SQL, Power BI, Excel, Python, Data Cleaning, and Dashboarding."
+    />
+    <meta
+      name="keywords"
+      content="Md Mehtab Khan, Data Analyst, Business Analyst, SQL Developer, Dashboard, Power BI, Excel, Python"
+    />
+    <meta name="author" content="Md Mehtab Khan" />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="bg-gradient-to-r from-sky-600 to-cyan-400 text-white">
+      <div
+        class="max-w-screen-xl mx-auto px-4 py-3 flex items-center justify-between"
+      >
+        <button
+          class="lg:hidden text-white focus:outline-none"
+          onclick="toggleMobileMenu()"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div class="hidden lg:flex flex-grow justify-center space-x-8">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+          <a href="#internship">Internship</a>
+        </div>
+      </div>
+
+      <div
+        id="mobileMenu"
+        class="mobile-menu fixed top-0 left-0 w-64 bg-gradient-to-r from-sky-600 to-cyan-400 text-white h-full lg:hidden hidden"
+      >
+        <div class="flex justify-end p-4">
+          <button class="text-white text-2xl" onclick="toggleMobileMenu()">
+            <i class="fa-solid fa-times"></i>
+          </button>
+        </div>
+        <ul class="flex flex-col items-center space-y-4 mt-8">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#internship">Internship</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Home -->
+    <section
+      id="home"
+      class="flex flex-col items-center justify-center min-h-screen bg-gradient-to-tr from-[#0f172a] to-[#1e293b] text-white text-center p-6"
+    >
+      <img
+        src="assest/mehtab.png"
+        alt="profile pic"
+        class="rounded-full w-40 h-40"
+      />
+      <h1
+        id="rotatingHeadline"
+        class="text-3xl md:text-4xl font-bold mt-4 text-white text-center"
+      >
+        Hi, I'm Md Mehtab Khan, Data Analyst
+      </h1>
+
+      <div class="mt-6 flex flex-wrap justify-center gap-3">
+        <a
+          href="https://www.linkedin.com/in/mdmehtab/"
+          class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded"
+          >LinkedIn</a
+        >
+        <a
+          href="https://github.com/mdmehtabkhan"
+          class="bg-gray-800 hover:bg-gray-900 px-4 py-2 rounded"
+          >GitHub</a
+        >
+        <a
+          href="#contact"
+          class="bg-green-600 hover:bg-green-700 px-4 py-2 rounded"
+          >Hire Me</a
+        >
+        <a
+          href="assets/Resume.pdf"
+          download
+          class="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded"
+          >Download CV</a
+        >
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="py-16 bg-white text-center">
+      <div class="max-w-4xl mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-4">About Me</h2>
+          <p class="text-lg text-gray-700">
+            I'm a data-driven professional passionate about turning raw data into
+            meaningful insights. I specialize in data analysis, dashboard
+            reporting, SQL querying, and Python scripting. I also have experience
+            using Excel for business intelligence. My goal is to help
+            organizations make data-backed decisions by visualizing, analyzing,
+            and optimizing data effectively.
+          </p>
+
+      </div>
+    </section>
+
+    <!-- Skills -->
+<section id="skills" class="py-16 bg-gray-100">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-10">Skills</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 text-center">
+
+      <!-- SQL -->
+      <div class="bg-[#FF4500] text-white py-3 rounded-lg">SQL</div>
+
+      <!-- Excel -->
+      <div class="bg-[#217346] text-white py-3 rounded-lg">Excel</div>
+
+      <!-- Data Cleaning -->
+      <div class="bg-[#FFD700] text-black py-3 rounded-lg">Data Cleaning</div>
+
+      <!-- Python -->
+      <div class="bg-[#3776AB] text-white py-3 rounded-lg">Python</div>
+
+      <!-- Data Visualization -->
+      <div class="bg-[#E76F51] text-white py-3 rounded-lg">Data Visualization</div>
+
+
+
+      <!-- Database Management -->
+      <div class="bg-[#4B8BBE] text-white py-3 rounded-lg">Database Management</div>
+
+      <!-- PostgreSQL -->
+      <div class="bg-[#336791] text-white py-3 rounded-lg">PostgreSQL</div>
+
+      <!-- MySQL -->
+      <div class="bg-[#00758F] text-white py-3 rounded-lg">MySQL</div>
+
+      <!-- MS SQL Server -->
+      <div class="bg-[#CC2927] text-white py-3 rounded-lg">MS SQL Server</div>
+      
+    </div>
+  </div>
+</section>
+
+
+    <!-- Projects -->
+    <section id="projects" class="py-16 bg-white">
+      <div class="max-w-5xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">Projects</h2>
+        <div class="space-y-6">
+          <div class="p-6 bg-gray-50 rounded-xl shadow">
+            <h3 class="text-xl font-semibold mb-2">
+              Sales Dashboard - Power BI
+            </h3>
+            <p class="text-gray-700 mb-2">
+              Created a dynamic dashboard using Power BI to visualize regional
+              sales, top products, and revenue trends across different quarters.
+            </p>
+            <p class="text-sm text-purple-600">Tools: Power BI, Excel, DAX</p>
+          </div>
+
+          <div class="p-6 bg-gray-50 rounded-xl shadow">
+            <h3 class="text-xl font-semibold mb-2">
+              Customer Segmentation - Python
+            </h3>
+            <p class="text-gray-700 mb-2">
+              Used clustering algorithms and pandas to group customers based on
+              purchasing behavior, enhancing targeted marketing strategies.
+            </p>
+            <p class="text-sm text-purple-600">
+              Tools: Python, Pandas, Matplotlib
+            </p>
+          </div>
+
+          <div class="p-6 bg-gray-50 rounded-xl shadow">
+            <h3 class="text-xl font-semibold mb-2">
+              Employee Database Querying - SQL
+            </h3>
+            <p class="text-gray-700 mb-2">
+              Designed and queried relational tables using SQL Server to
+              retrieve insights on department-wise employee distribution and
+              performance.
+            </p>
+            <p class="text-sm text-purple-600">
+              Tools: SQL Server, Joins, Views, Group By
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Virtual Internships -->
+    <section id="internship" class="py-16 bg-gray-100">
+      <div class="max-w-5xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">Virtual Internships</h2>
+
+        <!-- Goldman Sachs -->
+        <div class="p-6 bg-white rounded-xl shadow mb-6">
+          <h3 class="text-xl font-semibold mb-2">
+            Goldman Sachs – Excel Skills for Business
+          </h3>
+          <p class="text-gray-700 mb-2">
+            Completed a job simulation on Forage focused on mastering Excel for
+            financial analysis and business reporting.
+          </p>
+          <ul class="list-disc list-inside text-gray-600 mb-2">
+            <li>
+              Proficient in data cleaning, manipulation, and conditional
+              formatting.
+            </li>
+            <li>Automated workflows using VBA macros and buttons.</li>
+            <li>Created impactful Excel dashboards and visualizations.</li>
+          </ul>
+          <a
+            href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/MBA4MnZTNFEoJZGnk/eLeZHcwX7CqLhhps7_MBA4MnZTNFEoJZGnk_mfQuEG7BXNxoiw9oF_1741194625238_completion_certificate.pdf"
+            target="_blank"
+            class="text-blue-600 underline"
+            >View Simulation</a
+          >
+          <p class="text-sm text-gray-500 mt-1">Completed: March 2025</p>
+        </div>
+
+        <!-- PwC Switzerland -->
+        <div class="p-6 bg-white rounded-xl shadow">
+          <h3 class="text-xl font-semibold mb-2">
+            PwC Switzerland – Power BI Virtual Case Experience
+          </h3>
+          <p class="text-gray-700 mb-2">
+            Completed a job simulation on Forage focused on business analysis
+            and Power BI reporting.
+          </p>
+          <ul class="list-disc list-inside text-gray-600 mb-2">
+            <li>Built HR dashboards to visualize KPIs and business metrics.</li>
+            <li>
+              Analyzed gender-related KPIs and identified executive-level
+              imbalances.
+            </li>
+            <li>
+              Delivered concise business recommendations via email summaries.
+            </li>
+          </ul>
+          <a
+            href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/4sLyCPgmsy8DA6Dh3/a87GpgE6tiku7q3gu_4sLyCPgmsy8DA6Dh3_mfQuEG7BXNxoiw9oF_1743369907245_completion_certificate.pdf"
+            target="_blank"
+            class="text-blue-600 underline"
+            >View Simulation</a
+          >
+          <p class="text-sm text-gray-500 mt-1">Completed: March 2025</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-16 bg-gray-100">
+      <div class="max-w-3xl mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold mb-6">Contact Me</h2>
+        <form
+          action="https://api.web3forms.com/submit" 
+          method="POST"
+          class="space-y-4"
+        >
+          <input
+            type="hidden"
+            name="access_key"
+            value="97462f41-d725-4955-bbad-aef2d373bdce"
+          />
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            required
+            class="w-full p-3 border rounded"
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            required
+            class="w-full p-3 border rounded"
+          />
+          <input
+            type="text"
+            name="subject"
+            placeholder="Subject"
+            required
+            class="w-full p-3 border rounded"
+          />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            required
+            class="w-full p-3 border rounded"
+          ></textarea>
+          <button
+            type="submit"
+            class="bg-indigo-700 text-white px-6 py-2 rounded hover:bg-indigo-800"
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="bg-[#1e293b] text-white text-center py-4">
+      <p>&copy; 2025 Md Mehtab Khan. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
